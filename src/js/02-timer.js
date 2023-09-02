@@ -15,8 +15,10 @@ const timerEl = document.querySelector(".timer");
 const bodyEl = document.querySelector('body');
 
 bodyEl.style.backgroundColor = "#00FF7F";
-timerEl.style.dispayFlex;
-inputEl.style.backgroundColor = "#00F60F";
+timerEl.style.cssText = "margin-top: 100px; justify-content: center; display: flex; gap: 30px; font-size: 26px";
+inputEl.style.backgroundColor = "ffffff";
+inputEl.style.cssText = "display: block; margin-left: auto; margin-right: auto; text-align: center; justify-content: center; font-size: 26px; color: green";
+startBTN.style.cssText = "display: block; margin-top: 30px; margin-left: auto; margin-right: auto; text-align: center; font-size: 26px";
 
 
 startBTN.disabled = true;
