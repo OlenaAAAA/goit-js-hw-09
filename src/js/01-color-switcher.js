@@ -21,8 +21,10 @@ startBtn.addEventListener("click", onStart);
 stopBtn.addEventListener("click", onStop);
 
 
+let idInterval = null;
+
 function onStart() {
-    idInterval = setInterval(() => {
+     idInterval = setInterval(() => {
     bodyEl.style.backgroundColor = getRandomHexColor();
     }, 1000);
     

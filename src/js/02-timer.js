@@ -25,7 +25,8 @@ startBTN.disabled = true;
 const currentDate = new Date();
 
 
-
+let intervalId = null;
+ 
 
 const options = {
   enableTime: true,
