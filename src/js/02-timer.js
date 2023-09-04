@@ -67,6 +67,7 @@ function startTimer() {
       
     if (delta <= 0) {
       clearInterval(intervalId);
+      return;
     }
 
     setTheTimer(delta)
